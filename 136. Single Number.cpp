@@ -7,4 +7,5 @@ public:
         int allXor = 0;
         for (auto num: nums) allXor ^= num;
         return allXor;
+    }
 };
